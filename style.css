@@ -1,5 +1,9 @@
+body {
+	background-image: url("white-gradient-3-1920x1080.jpg");
+}
+
 h1 {
-	color: blue;
+	color: black;
 	text-align: center;
 	text-decoration: underline;
 }
