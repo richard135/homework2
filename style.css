@@ -1,0 +1,24 @@
+h1 {
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#top {
+	width: 300px;
+	margin: auto;
+}
+
+label {
+	float: left;
+	clear: both;
+}
+
+
+input {
+	float: right;
+}
+
+#test {
+	float: left;
+}
