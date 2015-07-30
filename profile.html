@@ -2,14 +2,17 @@
 <html>
 <head>
 	<title> Registration </title>
-	<link rel="stylesheet" href="C:\Users\rhsi4172\Desktop\Lighthouse\homework2\style.css"/>
+	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 	
 	<h1> Registration: </h1>
 	
+
 	<div id="top">
 	<form action="/profile/edit" method="POST">
+	<fieldset>
+	<legend> Account Information </legend>
 	
 	<label for="email">E-Mail: </label>
 	<input type="text" name="email" id="email" placeholder="Please Enter Your Email"/> 
@@ -27,15 +30,28 @@
 	<input type="text" name="last_name" id="last_name" placeholder="Last Name"/>
 	<br>
 
+	<label for="location" method="POST"> Location:</label>
+	<select>
+	<optgroup label="Canada" id="location">
+		<option>Alberta</option>
+		<option>British Columbia</option>
+		<option>Manitoba</option>
+	</optgroup>
+	</select>
+	<br>
+
+
 	<label for="gender" method="POST" id="test">Gender: </label>
-	<input type="radio" name="gender" id="male"/> 
-	<input type="radio" name="gender" id="female"/>  
+	<input type="radio" name="gender" id="male"/> <span id="testtext"> Male </span>
+	<br>
+	<input type="radio" name="gender" id="female"/> <span id="testtext"> Female </span>
 	<br>
 
 	<label for="submit" method="POST"></label>
 	<input type="submit" name="submit" id="submit"/>
 	</form>
 	</div>
+	</fieldset>
 
 </body>
 </html>

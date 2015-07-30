@@ -16,13 +16,30 @@ h1 {
 label {
 	float: left;
 	clear: both;
+	font-family: cursive;
 }
 
 
 input {
 	float: right;
+	width: 50%;
 }
 
 #test {
 	float: left;
+}
+
+
+select {
+	float:right;
+}
+
+#testtext{
+	float:right;
+	font-family: cursive;
+}
+
+
+legend{
+	text-align:center;
 }
